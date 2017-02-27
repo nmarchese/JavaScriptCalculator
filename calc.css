@@ -1,0 +1,52 @@
+table {
+  border: solid black 1px;
+  background-color: rgb(48, 48, 48);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+tbody, td {
+  border: solid black 1px;
+  border-collapse: collapse;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 7px;
+}
+
+input {
+  text-align: right;
+  background-color: rgba(80, 91, 56, .7);
+  border: solid black .5px;
+  font-size: 60px;
+  width: 420px;
+  height: 80px;
+  border-radius: 7px;
+}
+
+#clear {
+  background-color: rgb(138, 1, 1);
+}
+
+#sum {
+  background-color: rgb(33, 51, 97);
+}
+
+/*thead > td {
+  padding: 0;
+  margin: 0;
+}*/
+
+/*input {
+  height: 100%;
+  width: 100%;
+}*/
+
+.button {
+  background-color: rgb(135, 135, 135);
+  font-size: 50px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
